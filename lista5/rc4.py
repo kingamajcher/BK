@@ -61,7 +61,7 @@ def generate_message(length = 100):
 def main():
     message = "tajna wiadomość"
     M = text_to_ascii(message)
-    key = "heheheheheheheheheheveve fferfazffe"
+    key = "khbinbkjnjkefnwuanfibkutwwhbjvkJBdki"
     K = text_to_ascii(key)
     encrypted_message = RC4(K, M)
     decrypted_message = RC4(K, encrypted_message)
